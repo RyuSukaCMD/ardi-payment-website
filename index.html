@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ardiansyah - Simple Payment</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1E3A8A; /* Dark blue background */
+        }
+        .button {
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #38B2AC; /* Lighter teal on hover */
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center h-screen text-white text-center">
+    <div>
+        <h1 class="text-5xl font-bold mb-4">ARDIANSYAH</h1>
+        <p class="text-lg mb-6">Selamat datang di website simple payment<br>jangan sampai salah transfer</p>
+        <a href="#" class="button bg-teal-500 text-white py-2 px-4 rounded-full text-lg flex items-center justify-center">
+            <span role="img" aria-label="rocket">🚀</span> Klik disini
+        </a>
+    </div>
+    <script>
+        // JavaScript for any interactive elements can be added here
+        document.querySelector('.button').addEventListener('click', function() {
+            alert('Button clicked!'); // Example interaction
+        });
+    </script>
+</body>
+</html>
